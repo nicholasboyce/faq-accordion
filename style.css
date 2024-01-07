@@ -109,7 +109,7 @@ header {
     transition: grid-template-rows 500ms;
 }
 
-.accordion-item:hover {
+.accordion-item.active {
     grid-template-rows: auto 1fr;
     --minus: block;
     --plus: none;
